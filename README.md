@@ -18,29 +18,26 @@ We have an 15 node cluster for you to play with! The cluster is currently runnin
 ```
 
 // You can login to any of these nodes 
-ssh datastax@168.62.235.29
-ssh datastax@168.62.235.221
-ssh datastax@168.62.234.215
-ssh datastax@168.62.233.220
-ssh datastax@168.62.236.57
-ssh datastax@168.62.233.252
-ssh datastax@168.62.235.157
-ssh datastax@168.62.233.192
-ssh datastax@168.62.232.51
-ssh datastax@168.62.237.159
+ssh -i key.txt automaton@54.153.1.154
+ssh -i key.txt automaton@54.153.104.112
+ssh -i key.txt automaton@54.183.145.112
+ssh -i key.txt automaton@52.53.215.0
+ssh -i key.txt automaton@52.53.207.210
+ssh -i key.txt automaton@52.53.170.189
+ssh -i key.txt automaton@54.67.98.218
+ssh -i key.txt automaton@52.53.197.23
+ssh -i key.txt automaton@54.153.49.68
+ssh -i key.txt automaton@54.153.75.149
 
-http://168.62.237.186:8888/opscenter/index.html
-
-login: datastax
-pw: foo123!
+http://52.53.162.146:8888/opscenter/index.html
         
 ```
 
 #### UI's you'll want to play around with
  
- - OpsCenter: http://104.44.136.232:8888/opscenter/index.html
- - Spark Master: http://104.44.132.40:7080/
- - Solr UI: http://104.44.136.232:8983/solr/#/
+ - OpsCenter: http://52.53.162.146:8888/opscenter/index.html
+ - Spark Master: http://54.153.1.154/:7080/
+ - Solr UI: http://54.153.1.154:8983/solr/#/
 
 
 ----------
